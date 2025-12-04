@@ -1,0 +1,307 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 60px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff6b6b !important;
+}
+
+.nav-link {
+    color: #666 !important;
+    margin: 0 10px;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff6b6b !important;
+}
+
+.nav-item.active .nav-link {
+    color: #ff6b6b !important;
+    font-weight: bold;
+}
+
+/* Welcome Section */
+.welcome-section h1 {
+    color: #ff6b6b;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.welcome-section h2 {
+    color: #666;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+/* Intro Boxes */
+.intro-box {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.intro-box h3 {
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+
+.intro-box p {
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+}
+
+/* Interest Cards */
+.interests-grid h3 {
+    color: #333;
+    margin: 40px 0 20px 0;
+    font-size: 2rem;
+}
+
+.interest-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.interest-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.interest-emoji {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.interest-card h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.interest-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Fun Fact Section */
+.fun-fact {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fun-fact h3 {
+    margin-bottom: 15px;
+}
+
+#funFact {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    min-height: 60px;
+}
+
+/* Buttons */
+.btn-custom {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: all 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #ff5252;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Story Section */
+.story-section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.story-section h2 {
+    color: #ff6b6b;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.story-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Favorites Section */
+.favorites-section h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+/* Media Cards */
+.media-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+}
+
+.media-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.media-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.media-content {
+    padding: 20px;
+}
+
+.media-content h3 {
+    color: #333;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.year {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.media-content p {
+    color: #666;
+    font-size: 1rem;
+}
+
+/* Gaming Specific Styles */
+.gaming-card .media-image {
+    height: 200px;
+}
+
+.gaming-card .media-content {
+    padding: 25px;
+}
+
+.gaming-stats {
+    background-color: white;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.gaming-stats h3 {
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.gaming-stats ul {
+    list-style: none;
+    padding: 0;
+}
+
+.gaming-stats li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.gaming-stats li:last-child {
+    border-bottom: none;
+}
+
+/* Back Home Button */
+.back-home {
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .welcome-section h1 {
+        font-size: 2rem;
+    }
+
+    .welcome-section h2 {
+        font-size: 1.1rem;
+    }
+
+    .interest-card {
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        padding: 1rem;
+    }
+
+    .media-image {
+        height: 250px;
+    }
+
+    body {
+        padding-bottom: 100px;
+    }
+}
